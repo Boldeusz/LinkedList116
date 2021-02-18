@@ -20,6 +20,9 @@ public class Main {
         for (int i=0;i<intList.size();i++){
             System.out.println(i + ": " + intList.get(i));
         }
-
+        intList.add(1,2);
+        for (int i=0;i<intList.size();i++){
+            System.out.println(i + ": " + intList.get(i));
+        }
     }
 }
